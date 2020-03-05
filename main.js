@@ -5,8 +5,7 @@ const getSymbol = ()=> {
             let charCode = +(k.slice(k.length - 5, k.length));
             resolve(String.fromCharCode(charCode));
         },50);
-        }
-    );
+        });
 };
 async function getRandomChinese(length){
     let str = '';
